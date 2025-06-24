@@ -1,62 +1,28 @@
 {
-
-  "dependencies": {
-
-    "express": "^5.1.0",
-
-    "node": "^24.0.1"
-
-  },
-
   "name": "pbr-ads-2025-1-p1-contratofacil",
-
   "version": "1.0.0",
-
   "description": "ContratoFácil",
-
-  "main": "index.js",
-
+  "main": "server.js",
   "directories": {
-
     "doc": "docs"
-
   },
-
   "scripts": {
-
-    "test": "echo \"Error: no test specified\" && exit 1",
-
-    "start": "json-server --watch db/db.json --port 3000"
-
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [],
-
   "author": "",
-
   "license": "ISC",
-
-  "devDependencies": {
-
-    "json-server": "^1.0.0-beta.3"
-
+  "dependencies": {
+    "express": "^5.1.0",
+    "json-server": "^0.17.3"
   },
-
   "repository": {
-
     "type": "git",
-
     "url": "git+https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p1-contratofacil.git"
-
   },
-
   "bugs": {
-
     "url": "https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p1-contratofacil/issues"
-
   },
-
   "homepage": "https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2025-1-p1-contratofacil#readme"
-
 }
-
